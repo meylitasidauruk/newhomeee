@@ -1,0 +1,42 @@
+
+/* Jumbotron */
+.jumbotron {
+    background-image: url(3.png);
+    background-size: cover;
+    height: 800px;
+    margin-top: -75px;
+}
+
+
+.jumbotron .display-4{
+    color: #F19E20;
+    font-size: 76px;
+    font-style: normal;
+    font-family: Candy Beans;
+
+}
+
+.nav-link{
+    margin-right: 15px;
+}
+
+.nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #F19E20;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
+
+/* Utiltlty */
+.jumbotron .tombol {
+    font-size: 30px;
+    font-family: Candy Beans;
+    color: #ffffff;
+    background-color: #F19E20;
+    border-color:#F19E20;
+    margin-top: 300px;
+    margin-left: 800px;
+    border-radius: 25px;
+}
